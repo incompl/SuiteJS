@@ -20,7 +20,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 */
 
-var suiteJS = function() {
+var suiteJS = new function() {
 
     this._lastPassed = true;
     this._passCount = 0;
